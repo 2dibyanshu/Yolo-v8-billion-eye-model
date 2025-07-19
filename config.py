@@ -7,7 +7,7 @@ INPUT_QUEUE = os.getenv("INPUT_QUEUE", "image_queue")
 OUTPUT_QUEUE = os.getenv("OUTPUT_QUEUE", "detected_objects_queue")
 
 # YOLO Configuration
-YOLO_WEIGHTS_PATH = os.getenv("YOLO_WEIGHTS_PATH", "./best (2).pt")
+YOLO_WEIGHTS_PATH = os.getenv("YOLO_WEIGHTS_PATH", "./best.pt")
 # MinIO Configuration
 MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://127.0.0.1:9000").strip()
 MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
