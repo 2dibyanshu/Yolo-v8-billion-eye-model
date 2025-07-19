@@ -25,4 +25,4 @@ jobs:
       with:
        context:
        push: true
-       tags: dm2003/billion-i-model:latest
+       tags: dm2003/billion-i-model-v1:latest
